@@ -1,8 +1,8 @@
 {
     "source_url": "https://fbref.com/en/comps/9/2023-2024/{}/2023-2024-Premier-League-Stats",
     "statistics": {
-        "standard": {
-            "url": "stats",
+        "stats": {
+            "container-divs": ["all_stats_standard", "div_stats_standard"],
             "columns": [
                 "minutes",
                 "goals_assists_per90",
@@ -26,8 +26,8 @@
                 "birth_year"
             ]
         },
-        "goal_keeping": {
-            "url": "keepers",
+        "keepers": {
+            "container-divs": ["all_stats_keeper", "div_stats_keeper"],
             "columns": [
                 "gk_ties",
                 "gk_pens_saved",
@@ -49,7 +49,7 @@
             ]
         },
         "shooting": {
-            "url": "shooting",
+            "container-divs": ["all_stats_shooting", "div_stats_shooting"],
             "columns": [
                 "goals_per_shot",
                 "goals_per_shot_on_target",
@@ -73,7 +73,7 @@
             ]
         },
         "passing": {
-            "url": "passing",
+            "container-divs": ["all_stats_passing", "div_stats_passing"],
             "columns": [
                 "assisted_shots",
                 "progressive_passes",
@@ -100,8 +100,8 @@
                 "team"
             ]
         },
-        "pass_types": {
-            "url": "passing_types",
+        "passing_types": {
+            "container-divs": ["all_stats_passing_types", "div_stats_passing_types"],
             "columns": [
                 "passes_live",
                 "passes_free_kicks",
@@ -121,8 +121,8 @@
                 "team"
             ]
         },
-        "goal_and_shot_creation": {
-            "url": "gca",
+        "gca": {
+            "container-divs": ["all_stats_gca", "div_stats_gca"],
             "columns": [
                 "gca_per90",
                 "sca",
@@ -144,8 +144,8 @@
                 "team"
             ]
         },
-        "defensive_action": {
-            "url": "defense",
+        "defense": {
+            "container-divs": ["all_stats_defense", "div_stats_defense"],
             "columns": [
                 "blocked_shots",
                 "blocks",
@@ -166,7 +166,7 @@
             ]
         },
         "possession": {
-            "url": "possession",
+            "container-divs": ["all_stats_possession", "div_stats_possession"],
             "columns": [
                 "carries_into_final_third",
                 "take_ons_tackled_pct",
@@ -195,7 +195,7 @@
             ]
         },
         "playingtime": {
-            "url": "playingtime",
+            "container-divs": ["all_stats_playing_time", "div_stats_playing_time"],
             "columns": [
                 "games",
                 "on_goals_for",
@@ -212,8 +212,8 @@
                 "team"
             ]
         },
-        "miscellaneuos": {
-            "url": "misc",
+        "misc": {
+            "container-divs": ["all_stats_misc", "div_stats_misc"],
             "columns": [
                 "cards_yellow",
                 "cards_red",
@@ -225,7 +225,9 @@
                 "ball_recoveries",
                 "aerials_won",
                 "aerials_lost",
-                "aerials_won_pct"
+                "aerials_won_pct",
+                "player",
+                "team"
             ]
         }
     }
